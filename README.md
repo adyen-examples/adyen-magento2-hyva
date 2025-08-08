@@ -29,7 +29,4 @@ so Adyen Payment configuration is done as it would be otherwise done for any oth
 Then, the setup requires that for a given store, the Hyva theme and the Hyva checkout are configured:
 
  - Navigate to the Content > Design > Configuration admin section and activate the hyva/default theme for a given store view
- - Navigate to the Stores > Configuration > Hyva Themes > Checkout > General and activate `Hyva Default` (or `Hyva One page`) for a given store view
-### Supported methods
-
-Please refer to [Adobe Commerce Supported Payment Methods](https://docs.adyen.com/plugins/adobe-commerce/supported-payment-methods/) documentation.
+ - Navigate to the Stores > Configuration > Hyva Themes > Checkout > General and activate `Hyva Default` (or `Hyva One page`) for a given store view.
