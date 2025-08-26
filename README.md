@@ -11,6 +11,22 @@ This module depends on:
 - The Hyva default theme
 - Hyva_Checkout plugin
 
+### Payment methods implemented in 2024-2025
+
+- Affirm
+- Amazon Pay
+- Apple Pay
+- Cash App
+- Credit Card (CC)
+- Credit Card Vault (CC Vault)
+- Default (generic method template - can be extended)
+- Facilypay 3x
+- Facilypay
+- Google Pay
+- PayPal
+- Hyva checkout is compatible with Magento <= 2.4.7 via Adyen magento-2 dependency
+- Hyva is not compatible with Adyen Adobe Express Checkout module 
+
 ### Installation
 
 The dependencies may be obtained like for example
