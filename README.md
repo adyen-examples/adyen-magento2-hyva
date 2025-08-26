@@ -1,3 +1,5 @@
+> ## ⚠️ **Attention:**
+> ## This integration is no longer officially supported and will not get new updates.
 # Adyen Payment - Integration with Hyva Checkout
 
 This module supports Adyen payments via the Hyva Checkout implementation for Magento 2.
@@ -8,6 +10,22 @@ This module depends on:
 - Adyen_Payment plugin
 - The Hyva default theme
 - Hyva_Checkout plugin
+
+### Payment methods implemented in 2024-2025
+
+- Affirm
+- Amazon Pay
+- Apple Pay
+- Cash App
+- Credit Card (CC)
+- Credit Card Vault (CC Vault)
+- Default (generic method template - can be extended)
+- Facilypay 3x
+- Facilypay
+- Google Pay
+- PayPal
+- Hyva checkout is compatible with Magento <= 2.4.7 via Adyen magento-2 dependency
+- Hyva is not compatible with Adyen Adobe Express Checkout module 
 
 ### Installation
 
@@ -27,7 +45,4 @@ so Adyen Payment configuration is done as it would be otherwise done for any oth
 Then, the setup requires that for a given store, the Hyva theme and the Hyva checkout are configured:
 
  - Navigate to the Content > Design > Configuration admin section and activate the hyva/default theme for a given store view
- - Navigate to the Stores > Configuration > Hyva Themes > Checkout > General and activate `Hyva Default` (or `Hyva One page`) for a given store view
-### Supported methods
-
-Please refer to [Adobe Commerce Supported Payment Methods](https://docs.adyen.com/plugins/adobe-commerce/supported-payment-methods/) documentation.
+ - Navigate to the Stores > Configuration > Hyva Themes > Checkout > General and activate `Hyva Default` (or `Hyva One page`) for a given store view.
