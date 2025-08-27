@@ -316,7 +316,9 @@ $billingAddress = $block->getQuoteBillingAddress();
                 countryCode: formattedShippingAddress.country_id ? formattedShippingAddress.country_id : formattedBillingAddress.country_id
             };
 
-            if (!!paymentMethodsExtraInfo[paymentMethod.type].configuration) {
+            if (paymentMethodsExtraInfo &&
+                paymentMethodsExtraInfo[paymentMethod.type] &&
+                paymentMethodsExtraInfo[paymentMethod.type].configuration) {
                 return Object.assign(configuration, paymentMethodsExtraInfo[paymentMethod.type].configuration)
             } else {
                 return configuration;
