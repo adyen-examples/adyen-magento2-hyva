@@ -395,6 +395,13 @@ $billingAddress = $block->getQuoteBillingAddress();
                 }
             }
 
+            const btnPlaceOrder = document.querySelector('.btn-place-order');
+            if (btnPlaceOrder) {
+                btnPlaceOrder.style.pointerEvents = 'none';
+                btnPlaceOrder.style.opacity = '0.5';
+                btnPlaceOrder.style.cursor = 'not-allowed';
+            }
+
             wire.placeOrder({
                 stateData: data,
                 ccType: this.getCreditCardType(),
